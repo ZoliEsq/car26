@@ -1,0 +1,41 @@
+.bg {
+    background: white;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -20px;
+}
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+.carousel-control-prev-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  margin-right: 200px;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 80px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 80px;
+  color: black;
+}
