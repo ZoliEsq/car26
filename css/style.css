@@ -39,4 +39,12 @@
   font-size: 80px;
   color: black;
 }
+.top-text {
+  width: 500px;
+}
+@media (max-width: 768px) {
+  .top-text {
+    visibility: hidden;
+  }
+}
 
